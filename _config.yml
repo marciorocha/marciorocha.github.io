@@ -1,0 +1,43 @@
+title: MarcioRocha.com.br
+description: Marcio Rocha
+
+url: https://blog.marciorocha.com.br
+# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
+baseurl: # Ex: /project-page
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+# Header Option
+# header: medium
+
+sass:
+    style: compressed
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 2
+
+navigation:
+    - title: Home
+      url: /index.html
+    - title: Sobre
+      url: /about
+    - title: Contato
+      url: /contact
+    - title: Blog
+      url: /blog
+
+social:
+    #github: marciorocha
+    #twitter: marcioluizrocha
+    #facebook: brianmaierjr
+    email: marcio@marciorocha.com.br
+    #linkedin: brianmaierjr
+    #youtube: RickAstleyYT
+    #tumblr: i-am-a-fish
+
+#google_analytics: "UA-58263416-1"
+
+#disqus:
+    #shortname: brianmaierjr
